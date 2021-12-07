@@ -1,0 +1,473 @@
+body {
+  background-image: linear-gradient(180deg, rgba(240, 240, 255, 0.9), rgba(240, 240, 255, 0.9));
+  font-family: 'Libre Caslon Text', serif;
+  margin: 0px;
+}
+
+#navbar {
+  z-index: 99;
+  display: grid;
+  grid-template-columns: 8fr 1fr 1fr 1fr;
+  grid-template-areas: "blank about projects contact";
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(190, 230, 200, 1);
+}
+
+#about-link {
+  grid-area: about;
+}
+
+#projects-link {
+  grid-area: projects;
+}
+
+#contact-link {
+  grid-area: contact;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgba(200, 0, 0, 0.7);
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+section {
+  margin: 0px -8px 0px -8px;
+}
+
+#welcome-section {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  color: rgba(230, 250, 250, 1);
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 0px 0px 0px 0px;
+}
+
+#welcome-text {
+  font-size: 2rem;
+  margin: 15px 0px 0px 0px;
+  font-style: italic;
+}
+
+#projects {
+  background-color: rgba(80, 80, 150, 0.8);
+  height: 6250px;
+  padding: 0px 0px 50px 0px;
+}
+
+#projects-text {
+  font-size: 3rem;
+  font-weight: 600;
+  color: rgba(250, 250, 200, 1);
+  text-align: center;
+}
+
+.anchor-2 {
+  margin: 0px 0px 80px 0px;
+  padding: 100px 0px 0px 0px;
+}
+
+#underline {
+  display: inline-block;
+  line-height: 1.7;
+  border-bottom: 5px solid rgba(255, 255, 255, 1);
+}
+
+#coding-projects {
+  display: grid;
+  max-width: 800px;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px;
+  grid-column-gap: 6rem;
+  grid-row-gap: 6rem;
+  grid-template-areas:
+    "project-24 project-23"
+    "project-22 project-21"
+    "project-20 project-19"
+    "project-18 project-17"
+    "project-16 project-15"
+    "project-14 project-13"
+    "project-12 project-11"
+    "project-10 project-9"
+    "project-8 project-7"
+    "project-6 project-5"
+    "project-4 project-3"
+    "project-2 project-1";
+  text-align: center;
+  margin: 0px auto 0px auto;
+}
+
+#project-24 {
+  grid-area: project-24;
+}
+
+#project-23 {
+  grid-area: project-23;
+}
+
+#project-22 {
+  grid-area: project-22;
+}
+
+#project-21 {
+  grid-area: project-21;
+}
+
+#project-20 {
+  grid-area: project-20;
+}
+
+#project-19 {
+  grid-area: project-19;
+}
+
+#project-18 {
+  grid-area: project-18;
+}
+
+#project-17 {
+  grid-area: project-17;
+}
+
+#project-16 {
+  grid-area: project-16;
+}
+
+#project-15 {
+  grid-area: project-15;
+}
+
+#project-14 {
+  grid-area: project-14;
+}
+
+#project-13 {
+  grid-area: project-13;
+}
+
+#project-12 {
+  grid-area: project-12;
+}
+
+#project-11 {
+  grid-area: project-11;
+}
+
+#project-10 {
+  grid-area: project-10;
+}
+
+#project-9 {
+  grid-area: project-9;
+}
+
+#project-8 {
+  grid-area: project-8;
+}
+
+#project-7 {
+  grid-area: project-7;
+}
+
+#project-6 {
+  grid-area: project-6;
+}
+
+#project-5 {
+  grid-area: project-5;
+}
+
+#project-4 {
+  grid-area: project-4;
+}
+
+.project-tile {
+  width: 100%;
+  height: same-as-width;
+}
+
+.project-caption {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgba(230, 250, 250, 1);
+  margin: -3px 0px 0px 0px;
+  padding: 12px 0px 12px 0px;
+}
+
+#project-3 {
+  grid-area: project-3;
+}
+
+#project-2 {
+  grid-area: project-2;
+}
+
+#project-1 {
+  grid-area: project-1;
+}
+
+#contact {
+  background-color: rgba(255, 170, 40, 1);
+  max-height: 100vh;
+  text-align: center;
+  padding: 30% 0px 30% 0px;
+  margin-bottom: -8px;
+}
+
+#contact-text {
+  font-size: 4rem;
+  font-weight: 600;
+  color: rgba(50, 20, 140, 1);
+}
+
+#profile-text {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin: 15px 0px 0px 0px;
+}
+
+.icons {
+  max-height: 1.5rem;
+  max-width: 1.5rem;
+  margin: 0px 15px 0px 15px;
+}
+
+.profile-links {
+  text-decoration: none;
+  color: rgba(50, 20, 140, 1);
+  font-weight: 600;
+}
+
+#codepen {
+  margin: 0px 15px 0px 50px;
+}
+
+@media (max-width: 479px) {
+  h1 {
+    font-size: 3rem;
+    margin: 0px 15px 0px 15px;
+  }
+
+  #welcome-text {
+    font-size: 1.5rem;
+    margin: 15px 15px 0px 15px;
+  }
+
+  #projects {
+    height: 10280px;
+  }
+
+  #projects-text {
+    font-size: 2rem;
+    margin: 0px 15px 70px 15px;
+  }
+
+  #coding-projects {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(24, 400px);
+    grid-row-gap: 20px;
+    grid-template-areas:
+      "project-24"
+      "project-23"
+      "project-22"
+      "project-21"
+      "project-20"
+      "project-19"
+      "project-18"
+      "project-17"
+      "project-16"
+      "project-15"
+      "project-14"
+      "project-13"
+      "project-12"
+      "project-11"
+      "project-10"
+      "project-9"
+      "project-8"
+      "project-7"
+      "project-6"
+      "project-5"
+      "project-4"
+      "project-3"
+      "project-2"
+      "project-1";
+    text-align: center;
+    justify-items: center;
+  }
+
+  .project-alignment {
+    width: 280px;
+  }
+
+  .project-tile {
+    height: same-as-width;
+  }
+
+  #contact {
+    height: 300px;
+  }
+
+  #contact-text {
+    font-size: 2.5rem;
+    margin: 0px 20px 0px 20px;
+  }
+
+  #profile-text {
+    display: grid;
+    grid-template-columns: 30px 150px;
+    grid-template-rows: 40px 40px;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    grid-template-areas:
+      "FCC profile-link"
+      "codepen profile-link2";
+    font-size: 1.5rem;
+    margin: 20px 20px 0px 0px;
+    justify-items: start;
+  }
+
+  #FCC {
+    grid-area: FCC;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .icons {
+    height: 25px;
+    width: same-as-height;
+  }
+
+  #profile-link {
+    grid-area: profile-link;
+  }
+
+  #codepen {
+    grid-area: codepen;
+    margin: 0px 0px 0px 0px;
+  }
+
+  #profile-link2 {
+    grid-area: profile-link2;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 900px) {
+  h1 {
+    font-size: 3rem;
+    margin: 0px 15px 0px 15px;
+  }
+
+  #welcome-text {
+    font-size: 1.5rem;
+    margin: 15px 15px 0px 15px;
+  }
+
+  #projects {
+    height: 13930px;
+  }
+
+  #projects-text {
+    font-size: 3rem;
+    margin: 0px 15px 80px 15px;
+  }
+
+  #coding-projects {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(24, 450px);
+    grid-row-gap: 120px;
+    grid-template-areas:
+      "project-24"
+      "project-23"
+      "project-22"
+      "project-21"
+      "project-20"
+      "project-19"
+      "project-18"
+      "project-17"
+      "project-16"
+      "project-15"
+      "project-14"
+      "project-13"
+      "project-12"
+      "project-11"
+      "project-10"
+      "project-9"
+      "project-8"
+      "project-7"
+      "project-6"
+      "project-5"
+      "project-4"
+      "project-3"
+      "project-2"
+      "project-1";
+    text-align: center;
+    justify-items: center;
+  }
+
+  .project-alignment {
+    width: 450px;
+  }
+
+  .project-tile {
+    height: same-as-width;
+  }
+
+  #contact {
+    height: 450px;
+  }
+
+  #contact-text {
+    font-size: 3rem;
+    margin: 0px 15px 0px 15px;
+  }
+
+  #profile-text {
+    display: grid;
+    grid-template-columns: 30px 150px;
+    grid-template-rows: 40px 40px;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    grid-template-areas:
+      "FCC profile-link"
+      "codepen profile-link2";
+    font-size: 1.5rem;
+    margin: 20px 20px 0px 0px;
+    justify-items: start;
+  }
+
+  #FCC {
+    grid-area: FCC;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .icons {
+    height: 25px;
+    width: same-as-height;
+  }
+
+  #profile-link {
+    grid-area: profile-link;
+  }
+
+  #codepen {
+    grid-area: codepen;
+    margin: 0px 0px 0px 0px;
+  }
+
+  #profile-link2 {
+    grid-area: profile-link2;
+  }
+}
